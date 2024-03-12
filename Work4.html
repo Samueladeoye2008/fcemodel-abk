@@ -51,7 +51,7 @@
         <!--FOR TEXT AREA-->
         <br>
         <form  method="mailto" 
-        action="https://accounts.google.com/b/0/AddMailService" method="GET">
+        action="https://accounts.google.com/b/0/AddMailService" method="POST">
         <div>
           <input type="text" placeholder="subject" name="subject" required="#">  
         </div>
@@ -59,7 +59,7 @@
           <textarea id="area" cols="30" rows="10" placeholder="Your message" name="body" required="#"></textarea>  
         </div>
         <div>
-          <button type="submit">Send a Message</button>
+          <a href="https://accounts.google.com/b/0/AddMailService"><button class="submit">Send Message</button></a>
         </div>
       </form>
     </select>
